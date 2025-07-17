@@ -44,7 +44,8 @@ main {
 
     margin: -16% 0% 0% 7%;
     width: 40vw;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     grid-template-columns: 1fr;
 }
 
@@ -53,15 +54,17 @@ main {
 
 .podium-title {
     color: #007018;
-    font-size: 3rem;
+    font-size: 4vw;
     font-weight: 900;
     font-style: italic;
     text-align: center;
+    margin-top: 13px;
+    margin-bottom: 50px;
 }
 
-/*
+
 .podium-list {
-    margin-top: 4%;
+    margin-top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +76,7 @@ main {
     border-radius: 20px;
     padding: 3%;
     color: #fff;
-    width: 220px;
+    width: 10vw;
     transition: transform 0.3s ease;
 }
 
@@ -82,6 +85,21 @@ main {
     z-index: 1;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
+
+.podium-card h3 {
+    font-size: 2vw;
+    font-weight: 800;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 5%;
+}
+
+.podium-card li {
+    margin-left: -15px;
+    font-size: 1vw;
+}
+
+/*
 
 .call-to-action {
     margin-top: 30px;
@@ -112,16 +130,7 @@ main {
     cursor: pointer;
 
 }
-.podium-card h3      {
-    font-size: 19pt;
-    font-weight: 800;
-    text-align: center;
-    font-style: italic;
-    margin-bottom: 5%;
-}
-.podium-card li {
-    font-size: 15pt;
-}
+
 
 .horizontal-line {
     background-color: #007018;
@@ -164,8 +173,10 @@ DIV LATERAL ESQUERDA
         width: 90%;
     }
 
-    .main-info {
-        margin: 0;
+    .slogan {
+        color: #fff;
+        font-size: 2vw;
+        margin-bottom: 3%;
     }
 
     .main-text h1,
@@ -176,6 +187,8 @@ DIV LATERAL ESQUERDA
         font-style: italic;
         text-shadow: 0px 2px 5px rgb(0, 0, 0, 0.5);
     }
+
+
 
     .lateral-detail {
         display: flex;
@@ -189,9 +202,28 @@ DIV LATERAL ESQUERDA
         font-size: 2.5vw;
     }
 
-    .slogan {
-        color: #fff;
+
+
+
+    .main-info {
+        margin: 5% 0 0 0;
+        width: 100%;
+    }
+
+    .podium-title {
+        font-size: 9vw;
+    }
+
+    .podium-card h3 {
         font-size: 2vw;
-        margin-bottom: 3%;
+        font-weight: 800;
+        text-align: center;
+        font-style: italic;
+        margin-bottom: 5%;
+    }
+
+    .podium-card li {
+        margin-left: -15px;
+        font-size: 1vw;
     }
 }
