@@ -99,7 +99,7 @@ main {
     font-size: 1vw;
 }
 
-/*
+
 
 .call-to-action {
     margin-top: 30px;
@@ -109,26 +109,32 @@ main {
     justify-content: center;
     padding: 5%;
 }
-.cta-button{
-  transition: all 0.2s ease-in-out;
 
-    font-size: 28pt;
+.cta-button {
+    transition: all 0.2s ease-in-out;
+
+    font-size: 2vw;
     font-weight: 900;
     padding: 5%;
     border-radius: 20px;
     background-color: #007018;
     color: #fff;
     border: none;
-    max-width: 50%;
+    width: 20vw;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     margin-top: 40px;
 
 }
-.cta-button:hover{
+
+.cta-button:hover {
     background-color: #ffffff;
     color: #007018;
     cursor: pointer;
 
+}
+
+.cta-text {
+    font-size: 1vw;
 }
 
 
@@ -136,9 +142,9 @@ main {
     background-color: #007018;
     margin-bottom: 30px;
     height: 3px;
-    
+
     width: 100%;
-} */
+}
 
 
 /* 
@@ -156,13 +162,13 @@ DIV LATERAL ESQUERDA
 
 .vertical-line {
     background-color: #007018;
-    height: 20vw;
+    height: 1fea0vw;
     width: 5px;
     margin-right: 2%;
 }
 
 .paragraph-detail {
-    font-size: 1.5vw;
+    font-size: 1vw;
 }
 
 /* RESPONSIVIDADE */
@@ -212,10 +218,21 @@ DIV LATERAL ESQUERDA
 
     .podium-title {
         font-size: 9vw;
+        margin-bottom: 6vw;
+    }
+
+    .podium-list {
+        margin: 0 2% 0% 2%;
+    }
+
+
+    .podium-card {
+        width: 30vw;
+        height: 35vw;
     }
 
     .podium-card h3 {
-        font-size: 2vw;
+        font-size: 4.5vw;
         font-weight: 800;
         text-align: center;
         font-style: italic;
@@ -224,6 +241,16 @@ DIV LATERAL ESQUERDA
 
     .podium-card li {
         margin-left: -15px;
-        font-size: 1vw;
+        font-size: 2.5vw;
     }
+
+    .cta-button {
+        width: 50vw;
+        font-size: 5vw;
+    }
+
+    .cta-text {
+        font-size: 3vw;
+    }
+
 }
