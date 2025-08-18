@@ -1,2 +1,2 @@
 # esportes-tt
-Sistema de gerenciamento de torneios - Esportes Tournament Tech
+Landing Page - Esportes Tournament Tech
